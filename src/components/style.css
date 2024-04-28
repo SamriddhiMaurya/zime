@@ -1,0 +1,188 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Filter  */
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ant-select,
+.ant-input {
+  width: 300px;
+}
+
+.ant-select-selector {
+  background-color: #ffffff !important;
+  border-color: #003366 !important;
+}
+
+.ant-input {
+  background-color: #ffffff;
+  border-color: #003366;
+}
+
+/* Table  */
+.ant-table {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ant-table-thead > tr > th {
+  background-color: #003366;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.ant-table-tbody > tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.ant-table-pagination {
+  text-align: right;
+  margin-top: 20px;
+}
+
+/* Error Message  */
+.error-message {
+  color: #cc0000;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #cccccc;
+}
+
+
+
+/* About & Contact  */
+.about-container,
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-container h2,
+.contact-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: #003366;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+/*footer*/
+
+.footer {
+  background-color: #003366;
+  color: #ffffff;
+  /* padding: 5px; */
+  text-align: center;
+  margin-top: 225px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+}
